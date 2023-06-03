@@ -1,4 +1,4 @@
-# xss-to-csrf
+# XSS-to-CSRF
 
 The code snippet provided demonstrates a Cross-Site Request Forgery (CSRF) attack utilizing a Cross-Site Scripting (XSS) vulnerability.
 
